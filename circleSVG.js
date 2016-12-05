@@ -5,7 +5,7 @@
             speed: 6,
             shadowCircle: true,
             widthCircle: 2,
-            shadowText: false,
+            shadowText: true,
             numberSize: '2.5em',
             textSize: '1em',
             fontWeight: '300',
