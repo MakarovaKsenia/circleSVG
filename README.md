@@ -7,7 +7,7 @@ https://makarovaksenia.github.io/circleSVG/demo/
 <h4>Add css and script</h4>
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>//((your path to the file))/circleSVG.css<span class="pl-pds">"</span></span>/&gt;
 <span class="pl-c">&lt;!-- Add the jquery.min.js --&gt;</span>
-&lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>//((your path to the file))/circleSVG.js<span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">/script</span>&gt;</pre></div>
+&lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>//((your path to the file))/circleSVG.js<span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">/script</span>&gt;</pre></div>
 
 <h4>Settings</h4>
 <table><thead>
