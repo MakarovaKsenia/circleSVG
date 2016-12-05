@@ -52,13 +52,13 @@ https://makarovaksenia.github.io/circleSVG/demo/
 <td>numberSize</td>
 <td>string</td>
 <td>"2.5em"</td>
-<td>Font size of the number inside circles (px, em, rem, %)</td>
+<td>Font size of the number inside circles (you can use px, em, rem)</td>
 </tr>
 <tr>
 <td>textSize</td>
 <td>string</td>
 <td>"1em"</td>
-<td>Font size of the text inside circles (px, em, rem, %)</td>
+<td>Font size of the text inside circles (you can use px, em, rem)</td>
 </tr>
 <tr>
 <tr>
@@ -69,49 +69,54 @@ https://makarovaksenia.github.io/circleSVG/demo/
 </tr>
 <tr>
 <tr>
-<td>circles</td>
+<td colspan="100%">circles</td>
 </tr>
 <tr>
 <td>count</td>
 <td>int</td>
-<td>""</td>
+<td>100</td>
 <td>Big number (option)</td>
 </tr>
 <tr>
 <td>text</td>
 <td>string</td>
-<td>""</td>
+<td>"Title"</td>
 <td>Text after number (option)</td>
 </tr>
 <tr>
 <td>colorText</td>
 <td>string</td>
 <td>"#000"</td>
-<td>Color of the text (hex, rgb, rgba)</td>
+<td>Color of the text (you can use hex, rgb, rgba)</td>
 </tr>
 <tr>
 <td>colorCircle</td>
 <td>string</td>
 <td>"#000"</td>
-<td>Color of the circle (hex, rgb, rgba)</td>
+<td>Color of the circle (you can use hex, rgb, rgba)</td>
 </tr>
 <tr>
 <td>background</td>
 <td>string</td>
 <td>null</td>
-<td>Background (hex, rgb, rgba)</td>
+<td>Background (you can use hex, rgb, rgba)</td>
 </tr>
 <tr>
 <td>maxAngle</td>
 <td>int</td>
 <td>360</td>
-<td>Max angle of the circle</td>
+<td>Max angle of the circle (for example 180 as half of the circle)</td>
 </tr>
 </tbody></table>
 
 <h4>Example:</h4>
+<p>Initialize with (to show one circle):</p>
 <div class="highlight highlight-source-js"><pre>
-<span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">"</span>.circle<span class="pl-pds">"</span></span>).<span class="pl-en">circleSVG</span>({
+<span class="pl-c">// will be use default settings...</span>
+<span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">"</span>.your-element<span class="pl-pds">"</span></span>).<span class="pl-en">circleSVG</span>();</pre></div>
+<p>or use settings:</p>
+<div class="highlight highlight-source-js"><pre>
+<span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">"</span>.your-element<span class="pl-pds">"</span></span>).<span class="pl-en">circleSVG</span>({
   <span class="pl-c">// normal options...</span>
   number<span class="pl-k">:</span> <span class="pl-c1">4</span>,
   speed<span class="pl-k">:</span> <span class="pl-c1">4</span>,
@@ -119,15 +124,18 @@ https://makarovaksenia.github.io/circleSVG/demo/
   numberSize<span class="pl-k">:</span> <span class="pl-c1">"2.3em"</span>,
   textSize<span class="pl-k">:</span> <span class="pl-c1">"1em"</span>,
   circles<span class="pl-k">:</span> [{
+      <span class="pl-c">// first circle...</span>
       count<span class="pl-k">:</span> <span class="pl-c1">43</span>,
       text<span class="pl-k">:</span> <span class="pl-c1">"Shopify Stores"</span>,
       colorText<span class="pl-k">:</span> <span class="pl-c1">"#2f5770"</span>,
       colorCircle<span class="pl-k">:</span> <span class="pl-c1">"#33bfc0"</span>,
       background<span class="pl-k">:</span> <span class="pl-c1">"rgba(51,191,192,.1)"</span>
     }, {
+      <span class="pl-c">// second circle...</span>
       count<span class="pl-k">:</span> <span class="pl-c1">81</span>,
       colorCircle<span class="pl-k">:</span> <span class="pl-c1">"#3bb0e1"</span>
     }, {
+      <span class="pl-c">// third circle...</span>
       count<span class="pl-k">:</span> <span class="pl-c1">12</span>,
       text<span class="pl-k">:</span> <span class="pl-c1">"Hubspot Stores"</span>,
       colorText<span class="pl-k">:</span> <span class="pl-c1">"#ff0000"</span>,
