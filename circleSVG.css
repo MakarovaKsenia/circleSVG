@@ -1,0 +1,63 @@
+/* ============ Begin CircleSVG.css ============ */
+* {
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+section {
+    display: block;
+}
+.center {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+    position: relative;
+} 
+.land_pad {
+    padding: 20px;
+}
+.svg_circle {
+    float: left;
+    position: relative;
+    opacity: 1;   
+    width: 25%;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    padding: 0 5px 5px;
+    -webkit-transition: opacity .8s ease-in-out;   
+    transition: opacity .8s ease-in-out;
+}
+.svg_circle.undone {
+    opacity: 0;   
+}
+.svg_circle svg circle.circle-shadow {
+    -webkit-filter: drop-shadow(0px 0 1px #888);
+    filter: drop-shadow(0px 0 1px #888);
+}
+.svg_circle svg text.text-shadow {
+    -webkit-filter: drop-shadow(1px 1px 1px #888);
+    filter: drop-shadow(1px 1px 1px #888);
+}
+@media only screen and (max-width: 995px) {
+    .svg_circle svg {
+        width: 100%;
+        height: 100%;
+    }
+    .svg_circle svg circle {
+        width: 180px;
+        height: 180px;
+    }
+    .svg_circle svg text {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .svg_circle {
+        width: 50%;
+    }
+}
+/* ============ End CircleSVG.css ============ */
