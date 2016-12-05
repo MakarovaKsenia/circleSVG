@@ -1,9 +1,8 @@
 <h1>circleSVG</h1>
-<hr>
 <p>The svg circle you'll ever need</p>
 
 <h4>Demo</h4>
-<a href="https://makarovaksenia.github.io/circleSVG/demo/" title="Demo circleSVG">https://makarovaksenia.github.io/circleSVG/demo/</a>
+<a href="https://makarovaksenia.github.io/circleSVG/demo/" title="Demo circleSVG" target="_blank">https://makarovaksenia.github.io/circleSVG/demo/</a>
 
 <h4>Add css and script</h4>
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>//((your path to the file))/circleSVG.css<span class="pl-pds">"</span></span>/&gt;
@@ -71,9 +70,6 @@
 <tr>
 <tr>
 <td>circles</td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr>
 <td>count</td>
@@ -116,14 +112,13 @@
 <h4>Example:</h4>
 <div class="highlight highlight-source-js"><pre>
 <span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">"</span>.circle<span class="pl-pds">"</span></span>).<span class="pl-en">circleSVG</span>({
-
   <span class="pl-c">// normal options...</span>
   number<span class="pl-k">:</span> <span class="pl-c1">4</span>,
   speed<span class="pl-k">:</span> <span class="pl-c1">4</span>,
   shadowText<span class="pl-k">:</span> <span class="pl-c1">false</span>,
   numberSize<span class="pl-k">:</span> <span class="pl-c1">"2.3em"</span>,
   textSize<span class="pl-k">:</span> <span class="pl-c1">"1em"</span>,
-  circles<span class="pl-k">:</span> [
+  circles<span class="pl-k">:</span> [{
       count<span class="pl-k">:</span> <span class="pl-c1">43</span>,
       text<span class="pl-k">:</span> <span class="pl-c1">"Shopify Stores"</span>,
       colorText<span class="pl-k">:</span> <span class="pl-c1">"#2f5770"</span>,
@@ -138,7 +133,7 @@
       colorText<span class="pl-k">:</span> <span class="pl-c1">"#ff0000"</span>,
       colorCircle<span class="pl-k">:</span> <span class="pl-c1">"red"</span>,
       maxAngle<span class="pl-k">:</span> <span class="pl-c1">270</span>
-    }
+    }]
 });</pre></div>
 
 <h4>Dependencies</h4>
