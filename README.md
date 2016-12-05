@@ -2,7 +2,7 @@
 <p>The svg circle you'll ever need</p>
 
 <h4>Demo</h4>
-<a href="https://makarovaksenia.github.io/circleSVG/demo/" title="Demo circleSVG" target="_blank">https://makarovaksenia.github.io/circleSVG/demo/</a>
+https://makarovaksenia.github.io/circleSVG/demo/
 
 <h4>Add css and script</h4>
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>//((your path to the file))/circleSVG.css<span class="pl-pds">"</span></span>/&gt;
