@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Circle</title>
+        <link href="/circleSVG.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+        <script src="/circleSVG.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <section id="land" class="land_text">
+            <div class="center land_pad">
+                <h2>We Are Proud Of</h2>
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
+                    adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis 
+                    nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea 
+                    voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                    <br><br>
+                    "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, 
+                    so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty 
+                    through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. 
+                    In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed 
+                    and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures 
+                    have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures 
+                    to secure other greater pleasures, or else he endures pains to avoid worse pains."
+                </p>
+                <div class="circle"></div>
+            </div>
+        </section>
+        <script type="text/javascript">
+            $(document).ready(function () {
+//                $(".circle").circleSVG();
+                $(".circle").circleSVG({
+                    number: 4,
+                    speed: 4,
+                    shadowCircle: true,
+                    widthCircle: 2,
+                    shadowText: false,
+                    numberSize: '2.5em',
+                    textSize: '1em',
+                    fontWeight: '300',
+                    circles: [
+                        {
+                            count: 43,
+//                            text: "Shopify Stores",
+                            colorText: "#2f5770",
+                            colorCircle: "#33bfc0",
+                            background: "rgba(51,191,192,.1)"
+                        },
+                        {
+                            count: 81,
+//                            text: "Redesigns",
+//                            colorText: "#2f5770",
+                            colorCircle: "#3bb0e1"
+                        },
+                        {
+                            count: 122,
+                            text: "Test",
+                            colorText: "#ff0000",
+                            colorCircle: "red",
+                            maxAngle: 270
+                        }
+                    ]
+                });
+            });
+        </script>
+    </body>
+</html>
