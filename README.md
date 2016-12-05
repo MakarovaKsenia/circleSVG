@@ -21,13 +21,13 @@ https://makarovaksenia.github.io/circleSVG/demo/
 <tr>
 <td>number</td>
 <td>int</td>
-<td>4</td>
+<td>1</td>
 <td>Number of the circles (mandatory)</td>
 </tr>
 <tr>
 <td>speed</td>
 <td>int</td>
-<td>4</td>
+<td>6</td>
 <td>Transition speed (from 1 to 12)</td>
 </tr>
 <tr>
