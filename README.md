@@ -118,12 +118,13 @@ https://makarovaksenia.github.io/circleSVG/demo/
 <div class="highlight highlight-source-js"><pre>
 <span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">"</span>.your-element<span class="pl-pds">"</span></span>).<span class="pl-en">circleSVG</span>({
   <span class="pl-c">// normal options...</span>
-  number<span class="pl-k">:</span> <span class="pl-c1">4</span>,
+  number<span class="pl-k">:</span> <span class="pl-c1">4</span>,<span class="pl-c"> // number of the circles as you need...</span>
   speed<span class="pl-k">:</span> <span class="pl-c1">4</span>,
   shadowText<span class="pl-k">:</span> <span class="pl-c1">false</span>,
   numberSize<span class="pl-k">:</span> <span class="pl-c1">"2.3em"</span>,
   textSize<span class="pl-k">:</span> <span class="pl-c1">"1em"</span>,
-  circles<span class="pl-k">:</span> [{
+  circles<span class="pl-k">:</span> [
+    {
       <span class="pl-c">// first circle...</span>
       count<span class="pl-k">:</span> <span class="pl-c1">43</span>,
       text<span class="pl-k">:</span> <span class="pl-c1">"Shopify Stores"</span>,
@@ -141,7 +142,9 @@ https://makarovaksenia.github.io/circleSVG/demo/
       colorText<span class="pl-k">:</span> <span class="pl-c1">"#ff0000"</span>,
       colorCircle<span class="pl-k">:</span> <span class="pl-c1">"red"</span>,
       maxAngle<span class="pl-k">:</span> <span class="pl-c1">270</span>
-    }]
+    }
+    <span class="pl-c">// add the settings of the circles as you need...</span>
+  ]
 });</pre></div>
 
 <h4>Dependencies</h4>
