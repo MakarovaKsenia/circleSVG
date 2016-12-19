@@ -94,7 +94,7 @@ function circleA(el, speed) {
     $(el).removeClass('undone');
     myCount[h] = setInterval(function () {
         $(circle).attr("stroke-dasharray", angle + ", 20000");
-        var newangle = maxAngle < 360 ? ((angle / maxAngle * num) - 2) : (angle / maxAngle * num);
+        var newangle = speed === 4 && maxAngle < 360 ? ((angle / maxAngle * num) - 2) : (angle / maxAngle * num);
         $(time).html(parseInt(newangle));
         if (angle >= maxAngle) {
             clearInterval(myCount[h]);
